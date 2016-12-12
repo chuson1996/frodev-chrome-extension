@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "FroDev",
+  "description": "FroDev Chrome extension",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "./Logo.png",
+    "default_popup": "./popup.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "identity",
+    "http://localhost:3000/*",
+    "*://frodev.herokuapp.com/*"
+  ]
+}
